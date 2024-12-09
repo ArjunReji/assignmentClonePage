@@ -1,0 +1,173 @@
+    .container {
+      font-family: "Roboto", "Arial", sans-serif;
+    }
+    body{
+      margin: 0;
+      padding-top: 60px;
+      padding-left: 96px;
+      padding-right: 26px;
+      background-color: rgb(253, 247, 247);
+    }
+    .header{
+      height: 55px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      background-color: white;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: rgb(230, 226, 226);
+    }
+    .left-section{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+     
+    }
+    .hamburger-logo{
+      height: 20px;
+      margin-left: 20px;
+    }
+    .youtube-logo{
+      width: 90px;
+      height: 90px;
+      margin-left: 20px;
+    }
+
+
+    .middle-section{
+      flex: 1;
+      margin-left: 70px;
+      margin-right: 35px;
+      max-width: 500px;
+      display: flex;
+      align-items: center;
+    }
+    .search-bar{
+      flex: 1;
+      height: 36px;
+      padding-left: 10px;
+      margin-right: -25px;
+      font-size: 16px;
+      border: 1px solid rgb(226, 223, 223);
+      border-start-start-radius: 22px;
+      border-bottom-left-radius: 22px;
+      box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+
+    }
+    .search-bar::placeholder{
+      font-family: Roboto, Arial;
+      font-size: 16px;
+    }
+    .search-button{
+      background-color: rgb(245, 240, 240);
+      height: 36px;
+      border: 1px solid rgb(192, 187, 187);
+      width: 80px;
+      border-top-right-radius: 22px;
+      border-bottom-right-radius: 22px;
+      margin-left: -1px;
+    }
+    .search-icon{
+      height: 30px;
+      width: 35px;
+    }
+    .voice-icon{
+      margin-top: 5px;
+      height: 20px;
+      width: 20px;
+    }
+    .voice-button{
+      border-radius: 100%;
+      border: 1px solid rgb(255, 252, 252);
+      background-color: rgb(243, 238, 238);
+      height: 36px;
+      width: 40px;
+      margin-left: 15px;
+    }
+    .right-section{
+      width: 150px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .createvideo-logo{
+      height: 25px;
+      margin-top: 16px;
+    }
+    .bell-logo{
+      height: 25px;
+      margin-top: 16px;
+    }
+    .account-logo{
+      height: 30px;
+      margin-top: 16px;
+      margin-right: 20px;
+      border-radius: 100%;
+    }
+
+    .card-text {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .card-img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .video-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 40px;
+    }
+    @media (max-width: 900px) {
+      .video-container{
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (max-width: 500px) {
+      .video-container{
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .container-down{
+      display: flex;
+      flex-direction: row;
+    }
+    .left-box{
+      width: 700px;
+      height: 10000px;
+    }
+    .icon {
+      margin: auto;
+      width: 35px;
+      border-radius: 100%;
+      margin-top: 20px;
+    }
+
+    .views_count {
+      margin-top: -25px;
+      opacity: 0.8;
+    }
+    .notification-icon-container{
+      position: relative;
+    }
+    .notifications-count{
+      position: absolute;
+      top: 10px;
+      right: 80px;
+      color: white;
+      background-color: red;
+      border-radius: 40px;
+      font-family: Roboto, Arial;
+      font-size: 15px;
+      padding: 2px;
+    }
+    

@@ -1,0 +1,48 @@
+.top-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-box button {
+  justify-items: flex-start;
+}
+
+#home-img {
+  width: 22px;
+}
+
+#shorts-img {
+  width: 22px;
+}
+
+#sub-img {
+  width: 22px;
+}
+
+.left-box {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  width: 72px;
+  background-color: white;
+}
+
+.sidebar-link {
+  height: 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  text-align: center;
+}
+
+.sidebar-link:hover {
+  background-color: lightgray;
+}
+
+.sidebar-link img {
+  margin-bottom: 10px;
+  height: 24px;
+}
